@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # 加载模型
-model = joblib.load('C:\Users\Administrator\Desktop\新建文件夹\Rf_model.pkl')
+model = joblib.load(r'C:\Users\Administrator\Desktop\新建文件夹\Rf_model.pkl')
 
 # 定义特征选项
 sex_options = {
